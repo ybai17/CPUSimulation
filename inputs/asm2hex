@@ -1,0 +1,48 @@
+#!/usr/bin/env python2
+
+import os, argparse, subprocess
+
+# parse arguments
+parser = argparse.ArgumentParser()
+parser.add_argument("fasm", metavar="input.s", help="the ARM assembly file (ASCII)")
+args = parser.parse_args()
+
+
+curpwd = os.getcwd()
+ftmp = "tmp.out"
+fasm = args.fasm
+fhex = os.path.splitext(args.fasm)[0] + ".x"
+
+# run as (the actual ARM assembler)
+armas = os.path.join(os.path.dirname(__file__),
+                     '..', 'aarch64-linux-android-4.9', 'bin',
+                     'aarch64-linux-android-as')
+cmd = [armas, fasm, "-o", ftmp]
+subprocess.call(cmd)
+
+# SPIM outputs many files; but we are interested in only one
+armobjdump = os.path.join(os.path.dirname(__file__),
+                          '..', 'aarch64-linux-android-4.9', 'bin',
+                          'aarch64-linux-android-objdump')
+cmd = [armobjdump, "-d", ftmp]
+fstdout = open(fhex, "w")
+subprocess.call(cmd, stdout = fstdout)
+
+# remove unnecessary two lines from the file
+lines = open(fhex).readlines()
+data = ''
+for x in lines:
+    if '\t' in x:
+        data = data + x
+open(fhex, 'w').write(data)
+
+lines = open(fhex).readlines()
+lines = map(lambda x: x.split('\t')[1], lines)
+data = str.join('\n', lines)
+open(fhex, 'w').write(data)
+
+# remove all other files
+cmd = ["rm", ftmp]
+cmd = str.join(' ', cmd)
+subprocess.call(cmd, shell=True)  # we need a shell to expand the wildcard
+

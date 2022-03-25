@@ -1,0 +1,403 @@
+ARM Simulator
+
+Read 9 words from program into memory.
+
+ARM-SIM> 
+Simulating for 165 cycles...
+
+CHECK IN CACHE: index = 0 + tag = 400000
+_____________________NOT IN CACHE
+______________________________INSTR_CACHE_STALL = 49
+______________________________INSTR_CACHE_STALL = 48
+______________________________INSTR_CACHE_STALL = 47
+______________________________INSTR_CACHE_STALL = 46
+______________________________INSTR_CACHE_STALL = 45
+______________________________INSTR_CACHE_STALL = 44
+______________________________INSTR_CACHE_STALL = 43
+______________________________INSTR_CACHE_STALL = 42
+______________________________INSTR_CACHE_STALL = 41
+______________________________INSTR_CACHE_STALL = 40
+______________________________INSTR_CACHE_STALL = 39
+______________________________INSTR_CACHE_STALL = 38
+______________________________INSTR_CACHE_STALL = 37
+______________________________INSTR_CACHE_STALL = 36
+______________________________INSTR_CACHE_STALL = 35
+______________________________INSTR_CACHE_STALL = 34
+______________________________INSTR_CACHE_STALL = 33
+______________________________INSTR_CACHE_STALL = 32
+______________________________INSTR_CACHE_STALL = 31
+______________________________INSTR_CACHE_STALL = 30
+______________________________INSTR_CACHE_STALL = 29
+______________________________INSTR_CACHE_STALL = 28
+______________________________INSTR_CACHE_STALL = 27
+______________________________INSTR_CACHE_STALL = 26
+______________________________INSTR_CACHE_STALL = 25
+______________________________INSTR_CACHE_STALL = 24
+______________________________INSTR_CACHE_STALL = 23
+______________________________INSTR_CACHE_STALL = 22
+______________________________INSTR_CACHE_STALL = 21
+______________________________INSTR_CACHE_STALL = 20
+______________________________INSTR_CACHE_STALL = 19
+______________________________INSTR_CACHE_STALL = 18
+______________________________INSTR_CACHE_STALL = 17
+______________________________INSTR_CACHE_STALL = 16
+______________________________INSTR_CACHE_STALL = 15
+______________________________INSTR_CACHE_STALL = 14
+______________________________INSTR_CACHE_STALL = 13
+______________________________INSTR_CACHE_STALL = 12
+______________________________INSTR_CACHE_STALL = 11
+______________________________INSTR_CACHE_STALL = 10
+______________________________INSTR_CACHE_STALL = 9
+______________________________INSTR_CACHE_STALL = 8
+______________________________INSTR_CACHE_STALL = 7
+______________________________INSTR_CACHE_STALL = 6
+______________________________INSTR_CACHE_STALL = 5
+______________________________INSTR_CACHE_STALL = 4
+______________________________INSTR_CACHE_STALL = 3
+______________________________INSTR_CACHE_STALL = 2
+______________________________INSTR_CACHE_STALL = 1
+______________________________INSTR_CACHE_STALL = 0
+initialized index = 0 and tag = 400000
+searched for tag and did not find
+CHECK IN CACHE: index = 0 + tag = 400000
+>>>CHECK IN CACHE: found matching tag 400000
+READ: index = 0 + tag = 400000 + offset = 0
+>>>READ: found matching tag 400000
+CHECK IN CACHE: index = 0 + tag = 400000
+>>>CHECK IN CACHE: found matching tag 400000
+READ: index = 0 + tag = 400000 + offset = 1
+>>>READ: found matching tag 400000
+CHECK IN CACHE: index = 0 + tag = 400000
+>>>CHECK IN CACHE: found matching tag 400000
+READ: index = 0 + tag = 400000 + offset = 2
+>>>READ: found matching tag 400000
+CHECK IN CACHE: index = 0 + tag = 400000
+>>>CHECK IN CACHE: found matching tag 400000
+READ: index = 0 + tag = 400000 + offset = 3
+>>>READ: found matching tag 400000
+CHECK IN CACHE: index = 0 + tag = 400000
+>>>CHECK IN CACHE: found matching tag 400000
+READ: index = 0 + tag = 400000 + offset = 4
+>>>READ: found matching tag 400000
+CHECK IN CACHE: index = 0 + tag = 400000
+>>>CHECK IN CACHE: found matching tag 400000
+READ: index = 0 + tag = 400000 + offset = 5
+>>>READ: found matching tag 400000
+CHECK IN CACHE: index = 0 + tag = 400000
+>>>CHECK IN CACHE: found matching tag 400000
+READ: index = 0 + tag = 400000 + offset = 6
+>>>READ: found matching tag 400000
+initialized index = 0 and tag = 10000000
+searched for tag and did not find
+WRITE: index = 0 + tag = 10000000 + offset = 1
+>>>WRITE: found matching tag 10000000
+WRITE: index = 0 + tag = 10000000 + offset = 0
+>>>WRITE: found matching tag 10000000
+_____Entered STUR with addr = 10000004 and val32 = 3
+CHECK IN CACHE: index = 0 + tag = 400000
+>>>CHECK IN CACHE: found matching tag 400000
+READ: index = 0 + tag = 400000 + offset = 7
+>>>READ: found matching tag 400000
+______________________________DATA_CACHE_STALL = 49
+______________________________DATA_CACHE_STALL = 48
+______________________________DATA_CACHE_STALL = 47
+______________________________DATA_CACHE_STALL = 46
+______________________________DATA_CACHE_STALL = 45
+______________________________DATA_CACHE_STALL = 44
+______________________________DATA_CACHE_STALL = 43
+______________________________DATA_CACHE_STALL = 42
+______________________________DATA_CACHE_STALL = 41
+______________________________DATA_CACHE_STALL = 40
+______________________________DATA_CACHE_STALL = 39
+______________________________DATA_CACHE_STALL = 38
+______________________________DATA_CACHE_STALL = 37
+______________________________DATA_CACHE_STALL = 36
+______________________________DATA_CACHE_STALL = 35
+______________________________DATA_CACHE_STALL = 34
+______________________________DATA_CACHE_STALL = 33
+______________________________DATA_CACHE_STALL = 32
+______________________________DATA_CACHE_STALL = 31
+______________________________DATA_CACHE_STALL = 30
+______________________________DATA_CACHE_STALL = 29
+______________________________DATA_CACHE_STALL = 28
+______________________________DATA_CACHE_STALL = 27
+______________________________DATA_CACHE_STALL = 26
+______________________________DATA_CACHE_STALL = 25
+______________________________DATA_CACHE_STALL = 24
+______________________________DATA_CACHE_STALL = 23
+______________________________DATA_CACHE_STALL = 22
+______________________________DATA_CACHE_STALL = 21
+______________________________DATA_CACHE_STALL = 20
+______________________________DATA_CACHE_STALL = 19
+______________________________DATA_CACHE_STALL = 18
+______________________________DATA_CACHE_STALL = 17
+______________________________DATA_CACHE_STALL = 16
+______________________________DATA_CACHE_STALL = 15
+______________________________DATA_CACHE_STALL = 14
+______________________________DATA_CACHE_STALL = 13
+______________________________DATA_CACHE_STALL = 12
+______________________________DATA_CACHE_STALL = 11
+______________________________DATA_CACHE_STALL = 10
+______________________________DATA_CACHE_STALL = 9
+______________________________DATA_CACHE_STALL = 8
+______________________________DATA_CACHE_STALL = 7
+______________________________DATA_CACHE_STALL = 6
+______________________________DATA_CACHE_STALL = 5
+______________________________DATA_CACHE_STALL = 4
+______________________________DATA_CACHE_STALL = 3
+______________________________DATA_CACHE_STALL = 2
+______________________________DATA_CACHE_STALL = 1
+______________________________DATA_CACHE_STALL = 0
+WRITE_BLOCK: index = 0 + tag = 10000000 + offset = 0
+>>>WRITE_BLOCK: found matching tag 10000000
+initialized index = 0 and tag = 10000000
+__________CACHE HIT @ tag = 10000000 for addr = 10000000
+READ: index = 0 + tag = 10000000 + offset = 1
+>>>READ: found matching tag 10000000
+READ: index = 0 + tag = 10000000 + offset = 0
+>>>READ: found matching tag 10000000
+CHECK IN CACHE: index = 1 + tag = 400000
+_____________________NOT IN CACHE
+initialized index = 1 and tag = 10000000
+searched for tag and did not find
+WRITE: index = 1 + tag = 10000000 + offset = 1
+>>>WRITE: found matching tag 10000000
+WRITE: index = 1 + tag = 10000000 + offset = 0
+>>>WRITE: found matching tag 10000000
+_____Entered STUR with addr = 10000024 and val32 = 3
+______________________________INSTR_CACHE_STALL = 49
+______________________________DATA_CACHE_STALL = 49
+______________________________INSTR_CACHE_STALL = 48
+______________________________DATA_CACHE_STALL = 48
+______________________________INSTR_CACHE_STALL = 47
+______________________________DATA_CACHE_STALL = 47
+______________________________INSTR_CACHE_STALL = 46
+______________________________DATA_CACHE_STALL = 46
+______________________________INSTR_CACHE_STALL = 45
+______________________________DATA_CACHE_STALL = 45
+______________________________INSTR_CACHE_STALL = 44
+______________________________DATA_CACHE_STALL = 44
+______________________________INSTR_CACHE_STALL = 43
+______________________________DATA_CACHE_STALL = 43
+______________________________INSTR_CACHE_STALL = 42
+______________________________DATA_CACHE_STALL = 42
+______________________________INSTR_CACHE_STALL = 41
+______________________________DATA_CACHE_STALL = 41
+______________________________INSTR_CACHE_STALL = 40
+______________________________DATA_CACHE_STALL = 40
+______________________________INSTR_CACHE_STALL = 39
+______________________________DATA_CACHE_STALL = 39
+______________________________INSTR_CACHE_STALL = 38
+______________________________DATA_CACHE_STALL = 38
+______________________________INSTR_CACHE_STALL = 37
+______________________________DATA_CACHE_STALL = 37
+______________________________INSTR_CACHE_STALL = 36
+______________________________DATA_CACHE_STALL = 36
+______________________________INSTR_CACHE_STALL = 35
+______________________________DATA_CACHE_STALL = 35
+______________________________INSTR_CACHE_STALL = 34
+______________________________DATA_CACHE_STALL = 34
+______________________________INSTR_CACHE_STALL = 33
+______________________________DATA_CACHE_STALL = 33
+______________________________INSTR_CACHE_STALL = 32
+______________________________DATA_CACHE_STALL = 32
+______________________________INSTR_CACHE_STALL = 31
+______________________________DATA_CACHE_STALL = 31
+______________________________INSTR_CACHE_STALL = 30
+______________________________DATA_CACHE_STALL = 30
+______________________________INSTR_CACHE_STALL = 29
+______________________________DATA_CACHE_STALL = 29
+______________________________INSTR_CACHE_STALL = 28
+______________________________DATA_CACHE_STALL = 28
+______________________________INSTR_CACHE_STALL = 27
+______________________________DATA_CACHE_STALL = 27
+______________________________INSTR_CACHE_STALL = 26
+______________________________DATA_CACHE_STALL = 26
+______________________________INSTR_CACHE_STALL = 25
+______________________________DATA_CACHE_STALL = 25
+______________________________INSTR_CACHE_STALL = 24
+______________________________DATA_CACHE_STALL = 24
+______________________________INSTR_CACHE_STALL = 23
+______________________________DATA_CACHE_STALL = 23
+______________________________INSTR_CACHE_STALL = 22
+______________________________DATA_CACHE_STALL = 22
+______________________________INSTR_CACHE_STALL = 21
+______________________________DATA_CACHE_STALL = 21
+______________________________INSTR_CACHE_STALL = 20
+______________________________DATA_CACHE_STALL = 20
+______________________________INSTR_CACHE_STALL = 19
+______________________________DATA_CACHE_STALL = 19
+______________________________INSTR_CACHE_STALL = 18
+______________________________DATA_CACHE_STALL = 18
+______________________________INSTR_CACHE_STALL = 17
+______________________________DATA_CACHE_STALL = 17
+______________________________INSTR_CACHE_STALL = 16
+______________________________DATA_CACHE_STALL = 16
+______________________________INSTR_CACHE_STALL = 15
+______________________________DATA_CACHE_STALL = 15
+______________________________INSTR_CACHE_STALL = 14
+______________________________DATA_CACHE_STALL = 14
+______________________________INSTR_CACHE_STALL = 13
+______________________________DATA_CACHE_STALL = 13
+______________________________INSTR_CACHE_STALL = 12
+______________________________DATA_CACHE_STALL = 12
+______________________________INSTR_CACHE_STALL = 11
+______________________________DATA_CACHE_STALL = 11
+______________________________INSTR_CACHE_STALL = 10
+______________________________DATA_CACHE_STALL = 10
+______________________________INSTR_CACHE_STALL = 9
+______________________________DATA_CACHE_STALL = 9
+______________________________INSTR_CACHE_STALL = 8
+______________________________DATA_CACHE_STALL = 8
+______________________________INSTR_CACHE_STALL = 7
+______________________________DATA_CACHE_STALL = 7
+______________________________INSTR_CACHE_STALL = 6
+______________________________DATA_CACHE_STALL = 6
+______________________________INSTR_CACHE_STALL = 5
+______________________________DATA_CACHE_STALL = 5
+______________________________INSTR_CACHE_STALL = 4
+______________________________DATA_CACHE_STALL = 4
+______________________________INSTR_CACHE_STALL = 3
+______________________________DATA_CACHE_STALL = 3
+______________________________INSTR_CACHE_STALL = 2
+______________________________DATA_CACHE_STALL = 2
+______________________________INSTR_CACHE_STALL = 1
+______________________________DATA_CACHE_STALL = 1
+______________________________INSTR_CACHE_STALL = 0
+initialized index = 1 and tag = 400000
+searched for tag and did not find
+______________________________DATA_CACHE_STALL = 0
+WRITE_BLOCK: index = 1 + tag = 10000000 + offset = 0
+>>>WRITE_BLOCK: found matching tag 10000000
+CHECK IN CACHE: index = 1 + tag = 400000
+>>>CHECK IN CACHE: found matching tag 400000
+READ: index = 1 + tag = 400000 + offset = 0
+>>>READ: found matching tag 400000
+initialized index = 1 and tag = 10000000
+__________CACHE HIT @ tag = 10000000 for addr = 10000024
+WRITE: index = 1 + tag = 10000000 + offset = 2
+>>>WRITE: found matching tag 10000000
+WRITE: index = 1 + tag = 10000000 + offset = 1
+>>>WRITE: found matching tag 10000000
+_____Entered STUR with addr = 10000028 and val32 = 4
+CHECK IN CACHE: index = 1 + tag = 400000
+>>>CHECK IN CACHE: found matching tag 400000
+READ: index = 1 + tag = 400000 + offset = 1
+>>>READ: found matching tag 400000
+Simulator halted
+
+ARM-SIM> 
+Invalid Command
+ARM-SIM> 
+
+Current register/bus values :
+-------------------------------------
+Instruction Retired : 9
+PC                : 0x400028
+Registers:
+X0: 0x0
+X1: 0x10000000
+X2: 0x0
+X3: 0x0
+X4: 0x3
+X5: 0x4
+X6: 0x3
+X7: 0x0
+X8: 0x0
+X9: 0x0
+X10: 0x0
+X11: 0x0
+X12: 0x0
+X13: 0x0
+X14: 0x0
+X15: 0x0
+X16: 0x0
+X17: 0x0
+X18: 0x0
+X19: 0x0
+X20: 0x0
+X21: 0x0
+X22: 0x0
+X23: 0x0
+X24: 0x0
+X25: 0x0
+X26: 0x0
+X27: 0x0
+X28: 0x0
+X29: 0x0
+X30: 0x0
+X31: 0x0
+FLAG_N: 0
+FLAG_Z: 0
+No. of Cycles: 164
+
+ARM-SIM> 
+
+Memory content [0x10000000..0x100000ff] :
+-------------------------------------
+  0x10000000 (268435456) : 0x3
+  0x10000004 (268435460) : 0x0
+  0x10000008 (268435464) : 0x0
+  0x1000000c (268435468) : 0x0
+  0x10000010 (268435472) : 0x0
+  0x10000014 (268435476) : 0x0
+  0x10000018 (268435480) : 0x0
+  0x1000001c (268435484) : 0x0
+  0x10000020 (268435488) : 0x3
+  0x10000024 (268435492) : 0x4
+  0x10000028 (268435496) : 0x0
+  0x1000002c (268435500) : 0x0
+  0x10000030 (268435504) : 0x0
+  0x10000034 (268435508) : 0x0
+  0x10000038 (268435512) : 0x0
+  0x1000003c (268435516) : 0x0
+  0x10000040 (268435520) : 0x0
+  0x10000044 (268435524) : 0x0
+  0x10000048 (268435528) : 0x0
+  0x1000004c (268435532) : 0x0
+  0x10000050 (268435536) : 0x0
+  0x10000054 (268435540) : 0x0
+  0x10000058 (268435544) : 0x0
+  0x1000005c (268435548) : 0x0
+  0x10000060 (268435552) : 0x0
+  0x10000064 (268435556) : 0x0
+  0x10000068 (268435560) : 0x0
+  0x1000006c (268435564) : 0x0
+  0x10000070 (268435568) : 0x0
+  0x10000074 (268435572) : 0x0
+  0x10000078 (268435576) : 0x0
+  0x1000007c (268435580) : 0x0
+  0x10000080 (268435584) : 0x0
+  0x10000084 (268435588) : 0x0
+  0x10000088 (268435592) : 0x0
+  0x1000008c (268435596) : 0x0
+  0x10000090 (268435600) : 0x0
+  0x10000094 (268435604) : 0x0
+  0x10000098 (268435608) : 0x0
+  0x1000009c (268435612) : 0x0
+  0x100000a0 (268435616) : 0x0
+  0x100000a4 (268435620) : 0x0
+  0x100000a8 (268435624) : 0x0
+  0x100000ac (268435628) : 0x0
+  0x100000b0 (268435632) : 0x0
+  0x100000b4 (268435636) : 0x0
+  0x100000b8 (268435640) : 0x0
+  0x100000bc (268435644) : 0x0
+  0x100000c0 (268435648) : 0x0
+  0x100000c4 (268435652) : 0x0
+  0x100000c8 (268435656) : 0x0
+  0x100000cc (268435660) : 0x0
+  0x100000d0 (268435664) : 0x0
+  0x100000d4 (268435668) : 0x0
+  0x100000d8 (268435672) : 0x0
+  0x100000dc (268435676) : 0x0
+  0x100000e0 (268435680) : 0x0
+  0x100000e4 (268435684) : 0x0
+  0x100000e8 (268435688) : 0x0
+  0x100000ec (268435692) : 0x0
+  0x100000f0 (268435696) : 0x0
+  0x100000f4 (268435700) : 0x0
+  0x100000f8 (268435704) : 0x0
+  0x100000fc (268435708) : 0x0
+
+ARM-SIM> 
